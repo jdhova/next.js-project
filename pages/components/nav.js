@@ -1,33 +1,27 @@
 import React from 'react';
 // import {Link } from 'react-router-dom'
-import { Container,Navbar } from 'react-bootstrap';
+// import { Container,Navbar } from 'react-bootstrap';
+import Link from 'next/link'
+import navStyles from '../../styles/Nav.module.css'
 
-const nav = () => {
+const Nav = () => {
   return (
-    <div>
-              
-      <Navbar className='nav'>
-        <Container className='navhome'>
-          <Navbar.Brand>
-              {/* <Link to="/bootstrap-assignment">Home</Link> */}
-              </Navbar.Brand>
-          <Navbar.Toggle />
-          <Navbar.Collapse className="justify-content-end"> 
-            <Navbar.Text>
-                <ul className='links'>
-                    <h3>heheheh</h3>
-                  {/* <li> <Link to="/food">Food</Link></li>
-                  <li> <Link to="/confectionary">Confectionary</Link></li>
-                  <li> <Link to="/drinks">Drinks</Link></li> */}
-                </ul>
-            </Navbar.Text>
-          </Navbar.Collapse>
-        </Container>
-      </Navbar>
-       
-    </div>
+    <nav className={navStyles.nav}>
+        <ul>
+            <li>
+                <Link href ='/' >Home</Link>
+            </li>
+            <li>
+                <Link href ='/drinks' >Drinks</Link>
+            </li>
+            <li>
+                <Link href ='/food' >Food</Link>
+            </li>
+        </ul>
+
+     </nav>
   )
 }
 
-export default nav
+export default Nav
 

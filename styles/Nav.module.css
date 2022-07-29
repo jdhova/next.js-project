@@ -1,0 +1,16 @@
+
+.nav  {
+    display: flex;
+    flex-direction: column;
+    /* flex: 1; */
+    padding: 0.5rem 0;
+    border-top: 1px solid #eaeaea;
+    background-color: #fafafa;
+    /* background-color: green; */
+    color: gray;
+    width: 100%;
+    justify-content: left;
+    padding-left: 25px;
+    align-items: center;
+  }
+  
