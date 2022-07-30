@@ -1,8 +1,12 @@
 import React from 'react'
+import drinksStyles from '../styles/Drinks.module.css'
 
 const drinks = () => {
   return (
-    <div>drinks here</div>
+
+    <div className={drinksStyles.div}>
+        drinks here
+    </div>
   )
 }
 

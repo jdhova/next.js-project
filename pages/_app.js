@@ -1,4 +1,4 @@
-import '../styles/globals.css'
+// import '../styles/globals.css'
 import Mainpage from './components/Mainpage'
 
 // ## 1. Aayushi shah-N01523081 and
