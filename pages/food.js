@@ -16,7 +16,7 @@ const food = () => {
   return (
     <div className={`container-fluid my-5 py-5 ${foodStyles.food}`}>
       <Row>
-        <Col sm>
+        <Col>
             <div className="justify-content-center">
               <Image src={img1} height={'264.87'} width={'397.12'} /></div>
 
@@ -51,14 +51,14 @@ const food = () => {
           <div className="justify-content-center">
             <Image src={img5} className={'rounded'} height={'264.87'} width={'397.12'} />
           </div>
-          <div className="card-body text-center h3">Chole Bhature</div>
+          <div className="card-body text-center h3">Chole</div>
           <button className="btn btn-primary btn-md"> Order Now</button>
         </Col>
         <Col>
           <div className="justify-content-center">
             <Image src={img6} className={'rounded'} height={'264.87'} width={'397.12'} />
           </div>
-          <div className="card-body text-center h3">South Indian</div>
+          <div className="card-body text-center h3">Dosa</div>
           <button className="btn btn-primary btn-md">Order Now</button>
         </Col>
       </Row>

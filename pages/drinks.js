@@ -19,7 +19,7 @@ const drinks = () => {
           <div className="justify-content-center">
             <Image src={img1} className={'rounded'}/>
           </div>
-          <div className="card-body text-center h3">Masala Chai</div>
+          <div className="card-body text-center h3">Chai</div>
           <button className="btn btn-primary btn-block">Order Now</button>
         </Col>
         <Col>
@@ -48,14 +48,14 @@ const drinks = () => {
           <div className="justify-content-center ">
             <Image src={img5} className={'rounded'} />
           </div>
-          <div className="card-body text-center h3">Aam-Panna</div>
+          <div className="card-body text-center h3">Panna</div>
           <button className="btn btn-primary btn-md">Order Now</button>
         </Col>
         <Col>
           <div className="justify-content-center ">
             <Image src={img6} className={'rounded'} />
           </div>
-          <div className="card-body text-center h3">Filter-Coffee</div>
+          <div className="card-body text-center h3">Coffee</div>
           <button className="btn btn-primary btn-md">Order Now</button>
         </Col>
       </Row>
