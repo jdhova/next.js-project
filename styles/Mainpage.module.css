@@ -1,5 +1,9 @@
 .main {
     min-height: 100vh;
+    background-image: url('../pages/images/bgg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: lighten;
     /* padding: 4rem 0; */
    
     flex: 1;
@@ -8,3 +12,4 @@
     justify-content: center;
     align-items: center;
   }
+  
