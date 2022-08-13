@@ -20,7 +20,7 @@ export default function Home() {
         <h1 className='text-center'>AUTHENTIC TRADITIONAL AND MODERN INDIAN CUISINE IN TORONTO</h1>
         <p className='text-center'>
           We serve the best authentic, traditional and modern Indian cuisine 
-        in Toronto. We've also got the largest collection of cuisines in the country.
+        in Toronto. We have  also got the largest collection of cuisines in the country.
         </p>
         <h4 className='text-danger text-center'>
           Indian food is world-renowned for its tantalising 
