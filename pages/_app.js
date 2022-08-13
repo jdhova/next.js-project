@@ -1,5 +1,5 @@
 // import '../styles/globals.css'
-import Mainpage from './components/Mainpage';
+import Mainpage from './components/mainpage';
 import 'bootstrap/dist/css/bootstrap.css';
 
 
